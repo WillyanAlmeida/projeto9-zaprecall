@@ -13,6 +13,7 @@ export default function Header({ img}) {
 
 const Headx = styled.div`
 z-index: 8;
+width: 100%;
 padding-left: 59px;
 padding-top: 12px;
 position: fixed;
@@ -21,6 +22,7 @@ display: flex;
 align-items: center;
 gap: 20px;
 background-color: #FB6B6B;
+
 
 img{
     

@@ -13,11 +13,12 @@ export default function Body({img}){
 }
 
 const Questionsbox = styled.div`
-margin-top: 105px;
+margin-top: 145px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 gap: 25px;
-margin-bottom: 75px;
+margin-bottom: 125px;
+height: 115vh;
 `;
