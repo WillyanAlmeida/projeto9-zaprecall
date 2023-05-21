@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 
 
-export default function Welcome({iniciar, setIniciar, logo}) {
+export default function Welcome({iniciar, setIniciar, img}) {
     
     function iniciarRecall ({iniciar}){
         console.log('clicou')
@@ -11,7 +11,7 @@ export default function Welcome({iniciar, setIniciar, logo}) {
     }
     return (
         <Welcomebox iniciar={iniciar}>
-            <img src={logo} ></img>
+            <img src={img.logo} ></img>
             <h1>ZapRecall</h1>
             <button onClick={iniciarRecall}>Iniciar Recall!</button>
         </Welcomebox>

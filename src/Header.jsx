@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
 
-export default function Header({ logo}) {
+export default function Header({ img}) {
     return (
         <Headx>
-            <img src={logo} ></img>
+            <img src={img.logo} ></img>
             <h1>ZapRecall</h1>
 
         </Headx>
@@ -12,6 +12,7 @@ export default function Header({ logo}) {
 }
 
 const Headx = styled.div`
+z-index: 8;
 padding-left: 59px;
 padding-top: 12px;
 position: fixed;
@@ -19,6 +20,7 @@ top: 0;
 display: flex;
 align-items: center;
 gap: 20px;
+background-color: #FB6B6B;
 
 img{
     

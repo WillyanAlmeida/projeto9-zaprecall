@@ -12,6 +12,7 @@ export default function Footer(){
 
 
 const Foot = styled.div`
+z-index: 9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,9 @@ const Foot = styled.div`
     position: fixed;
     width: 100%;
     bottom: 0;
-    background: #E5E5E5;
+    background: #fff;
+    box-shadow: 0px -4px 6px 0px #0000000D;
+
     h1{
         font-family: 'Recursive';
         font-style: normal;
