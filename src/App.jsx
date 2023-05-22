@@ -2,18 +2,18 @@ import { useState } from 'react'
 import GlobalStyle from './globalStyles.js'
 import Welcome from './Welcome.jsx'
 import Zaprecall from './Zaprecall.jsx'
-const img = {
-  logo:"/src/assets/logo.png", 
-  play:"/src/assets/seta_play.png",
-  virar:"/src/assets/seta_virar.png",
-  certo:"/src/assets/icone_certo.png",
-  erro:"/src/assets/icone_erro.png",
-  quase:"/src/assets/icone_quase.png",
-  party:"/src/assets/party.png",
-  sad:"/src/assets/sad.png"
-}
+import logo from "../src/assets/logo.png"
+import play from "../src/assets/seta_play.png"
+import virar from "../src/assets/seta_virar.png"
+import certo from "../src/assets/icone_certo.png"
+import erro from "../src/assets/icone_erro.png"
+import quase from "../src/assets/icone_quase.png"
+import party from "../src/assets/party.png"
+import sad from "../src/assets/sad.png"
+
 
 function App() {
+  const img = {logo: logo, play: play, virar: virar, certo: certo, erro: erro, quase: quase, party: party, sad: sad}
   const [count, setCount] = useState(0)
   let [iniciar, setIniciar]= useState('flex');  
 
