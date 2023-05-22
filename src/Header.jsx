@@ -6,7 +6,6 @@ export default function Header({ img}) {
         <Headx>
             <img src={img.logo} ></img>
             <h1>ZapRecall</h1>
-
         </Headx>
     )
 }
@@ -22,8 +21,6 @@ display: flex;
 align-items: center;
 gap: 20px;
 background-color: #FB6B6B;
-
-
 img{
     
     width: 52px;
@@ -36,9 +33,7 @@ h1{
     font-size: 36px;
     line-height: 45px;
     letter-spacing: -0.012em;
-
     color: #FFFFFF;
-
     transform: rotate(0.58deg);
 }
 `;

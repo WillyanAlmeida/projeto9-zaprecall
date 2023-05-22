@@ -2,11 +2,11 @@ import styled from "styled-components"
 import Questions from "./Questions"
 
 
-export default function Body({img}){
+export default function Body({img, setCount, count, footericon, setFootericon }){
     return(
         <>
         <Questionsbox  >
-            <Questions img={img} />
+            <Questions setCount={setCount} img={img} count={count} footericon={footericon} setFootericon={setFootericon} />
         </Questionsbox>
         </>
     )

@@ -5,14 +5,14 @@ import Question from './Question'
 
 
 
-export default function Questions({ img }) {
+export default function Questions({ img, setCount, count, footericon, setFootericon }) {
 
 
    
     return (
         data.map((x) => (
             <Box>
-               <Question x={x} img={img}/>
+               <Question x={x} img={img} setCount={setCount} count={count} footericon={footericon} setFootericon={setFootericon}/>
             </Box>))
 
     )

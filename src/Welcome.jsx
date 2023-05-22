@@ -13,7 +13,7 @@ export default function Welcome({iniciar, setIniciar, img}) {
         <Welcomebox iniciar={iniciar}>
             <img src={img.logo} ></img>
             <h1>ZapRecall</h1>
-            <button onClick={iniciarRecall}>Iniciar Recall!</button>
+            <button data-test="start-btn" onClick={iniciarRecall}>Iniciar Recall!</button>
         </Welcomebox>
     )
 }

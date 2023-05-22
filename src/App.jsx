@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-import styled from 'styled-components'
 import GlobalStyle from './globalStyles.js'
 import Welcome from './Welcome.jsx'
 import Zaprecall from './Zaprecall.jsx'
@@ -15,19 +13,15 @@ const img = {
   sad:"./src/assets/sad.png"
 }
 
-
-
-
 function App() {
   const [count, setCount] = useState(0)
-  let [iniciar, setIniciar]= useState('flex');
-  
+  let [iniciar, setIniciar]= useState('flex');  
 
   return (
     <>
     <GlobalStyle />
     <Welcome iniciar={iniciar} setIniciar={setIniciar} img={img}/>
-    <Zaprecall img={img} iniciar={iniciar} />
+    <Zaprecall img={img} iniciar={iniciar} setCount={setCount} count={count}/>
     </>
   )
 }
