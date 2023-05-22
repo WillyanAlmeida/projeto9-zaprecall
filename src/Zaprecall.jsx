@@ -21,7 +21,7 @@ const Zap = styled.div`
     z-index: 9;
     display: ${props=>props.iniciar === 'flex'?'none':'flex'};
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
     background-color: #FB6B6B;
     margin-bottom: 70px;
 `;
